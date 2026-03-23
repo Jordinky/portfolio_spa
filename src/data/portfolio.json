@@ -1,0 +1,65 @@
+{
+  "hero": {
+    "name": "Jordi Pelaez Calderini",
+    "title": "Fullstack Developer",
+    "tagline": "Based in Barcelona, I have a strong focus on creating user-friendly interfaces and scalable solutions. Passionate about continuous learning and leveraging new technologies to deliver high-quality projects.",
+    "photo": "/hero-photo.jpg",
+    "cta": {
+      "label": "Ver proyectos",
+      "href": "#projects"
+    }
+  },
+  "about": {
+    "bio": "Desarrollador fullstack apasionado por crear experiencias digitales únicas y de alto rendimiento. Con enfoque en arquitectura limpia y diseño minimalista.",
+    "skills": [
+      { "name": "Javascript" },
+      { "name": "Python" },
+      { "name": "MySQL" },
+      { "name": "React" },
+      { "name": "NodeJs" }
+    ]
+  },
+  "projects": [
+    {
+      "title": "Nothing OS Clone",
+      "description": "Replica de la interfaz de Nothing OS en la web usando React y Vite.",
+      "stack": [
+        "React",
+        "CSS Variables",
+        "Vite"
+      ],
+      "github": "https://github.com/jordipelaez/nothing-os-clone",
+      "live": "https://nothing-os-clone.demo"
+    },
+    {
+      "title": "E-commerce API",
+      "description": "Backend robusto para tiendas online con gestión de inventario.",
+      "stack": [
+        "Node.js",
+        "Express",
+        "PostgreSQL"
+      ],
+      "github": "https://github.com/jordipelaez/ecommerce-api",
+      "live": "https://api.ecommerce.demo"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Tech Solutions S.L.",
+      "role": "Fullstack Developer",
+      "period": "2022 – Present",
+      "description": "Desarrollo y mantenimiento de aplicaciones web escalables. Liderazgo en la migración a React."
+    },
+    {
+      "company": "Startup Inc.",
+      "role": "Frontend Developer",
+      "period": "2020 – 2022",
+      "description": "Creación de interfaces de usuario interactivas y optimización de rendimiento en el lado del cliente."
+    }
+  ],
+  "contact": {
+    "email": "contacto@jordipelaez.dev",
+    "github": "https://github.com/jordipelaez",
+    "linkedin": "https://linkedin.com/in/jordipelaez"
+  }
+}
