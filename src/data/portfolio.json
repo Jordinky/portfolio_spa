@@ -21,26 +21,28 @@
   },
   "projects": [
     {
-      "title": "Nothing OS Clone",
-      "description": "Replica de la interfaz de Nothing OS en la web usando React y Vite.",
-      "stack": [
-        "React",
-        "CSS Variables",
-        "Vite"
-      ],
-      "github": "https://github.com/jordipelaez/nothing-os-clone",
-      "live": "https://nothing-os-clone.demo"
+      "title": "react_portfolio",
+      "description": "Portfolio completo y modular programado usando React.",
+      "stack": ["React", "Javascript", "CSS"],
+      "github": "https://github.com/Jordinky/react_portfolio"
     },
     {
-      "title": "E-commerce API",
-      "description": "Backend robusto para tiendas online con gestión de inventario.",
-      "stack": [
-        "Node.js",
-        "Express",
-        "PostgreSQL"
-      ],
-      "github": "https://github.com/jordipelaez/ecommerce-api",
-      "live": "https://api.ecommerce.demo"
+      "title": "pokedex",
+      "description": "A pokedex from the Pokemon anime, made with Django and CSS.",
+      "stack": ["Python", "Django", "CSS"],
+      "github": "https://github.com/Jordinky/pokedex"
+    },
+    {
+      "title": "dice-front",
+      "description": "Frontend interactivo de una aplicación o juego basado en dados.",
+      "stack": ["Javascript", "React"],
+      "github": "https://github.com/Jordinky/dice-front"
+    },
+    {
+      "title": "author-spark-unleashed",
+      "description": "Aplicación open-source albergada en el ecosistema de Github.",
+      "stack": ["Javascript", "NodeJs"],
+      "github": "https://github.com/Jordinky/author-spark-unleashed"
     }
   ],
   "experience": [
