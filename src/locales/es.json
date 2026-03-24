@@ -1,0 +1,41 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "projects": "Proyectos",
+    "experience": "Experiencia",
+    "studies": "Estudios",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "tagline": "Desarrollador fullstack con sede en Barcelona, enfocado en crear interfaces fáciles de usar y soluciones escalables. Me apasiona el aprendizaje continuo y el uso de nuevas tecnologías para entregar proyectos de alta calidad.",
+    "cta": "Ver Proyectos"
+  },
+  "about": {
+    "title": "Sobre mí",
+    "bio": "Desarrollador fullstack con sede en Barcelona, enfocado en crear interfaces fáciles de usar y soluciones escalables. Me apasiona el aprendizaje continuo y el uso de nuevas tecnologías para entregar proyectos de alta calidad."
+  },
+  "projects": {
+    "title": "Proyectos",
+    "desc_portfolio": "Portfolio completo y modular programado usando React.",
+    "desc_pokedex": "Una pokedex del anime de Pokemon, hecha con Django y CSS.",
+    "desc_dice": "Frontend interactivo de una aplicación o juego basado en dados.",
+    "desc_author": "Aplicación de código abierto albergada en el ecosistema de GitHub."
+  },
+  "experience": {
+    "title": "Experiencia Profesional",
+    "nate_role": "Desarrollador Fullstack",
+    "nate_desc": "Desarrollo y mantenimiento del sistema ERP propio de la empresa. Trabajando tanto en el front-end como en el back-end. Implementando mejoras y resolviendo problemas para optimizar los procesos internos.",
+    "urbaser_role": "Técnico del Ayuntamiento",
+    "urbaser_desc": "Desarrollo y mantenimiento de CRM usando Javascript y MySql. Mantenimiento de bases de datos. Virtualización de rutas en software GIS como Qgis y ArcGis. Resolución de problemas. Implementación y prueba de nuevas tecnologías."
+  },
+  "studies": {
+    "title": "Estudios",
+    "bootcamp": "Bootcamp de desarrollo Backend",
+    "ibm": "Desarrollo Fullstack de IBM",
+    "meta": "React Avanzado por META"
+  },
+  "contact": {
+    "title": "Contacto"
+  }
+}

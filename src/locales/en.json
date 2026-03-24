@@ -1,0 +1,41 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "experience": "Experience",
+    "studies": "Studies",
+    "contact": "Contact"
+  },
+  "hero": {
+    "tagline": "Fullstack developer based in Barcelona, I have a strong focus on creating user-friendly interfaces and scalable solutions. Passionate about continuous learning and leveraging new technologies to deliver high-quality projects.",
+    "cta": "View Projects"
+  },
+  "about": {
+    "title": "About Me",
+    "bio": "Fullstack developer based in Barcelona, I have a strong focus on creating user-friendly interfaces and scalable solutions. Passionate about continuous learning and leveraging new technologies to deliver high-quality projects."
+  },
+  "projects": {
+    "title": "Projects",
+    "desc_portfolio": "Complete and modular portfolio built using React.",
+    "desc_pokedex": "A pokedex from the Pokemon anime, made with Django and CSS.",
+    "desc_dice": "Interactive frontend of a dice game or application.",
+    "desc_author": "Open-source application hosted on GitHub's ecosystem."
+  },
+  "experience": {
+    "title": "Professional Experience",
+    "nate_role": "Fullstack Developer",
+    "nate_desc": "Development and maintenance of the company's proprietary ERP system. Working on both front-end and back-end sides. Implementing improvements and resolving issues to optimize internal processes.",
+    "urbaser_role": "Cityhall technician",
+    "urbaser_desc": "CRM development and maintenance using Javascript and MySql. Database maintenance. Route virtualization in GIS software such as Qgis and ArcGis. Troubleshooting. Implementation and testing of new technologies."
+  },
+  "studies": {
+    "title": "Studies",
+    "bootcamp": "Back end development bootcamp",
+    "ibm": "IBM Fullstack development",
+    "meta": "Advanced React by META"
+  },
+  "contact": {
+    "title": "Contact"
+  }
+}

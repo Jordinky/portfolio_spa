@@ -1,0 +1,41 @@
+{
+  "nav": {
+    "home": "Inici",
+    "about": "Sobre mi",
+    "projects": "Projectes",
+    "experience": "Experiència",
+    "studies": "Estudis",
+    "contact": "Contacte"
+  },
+  "hero": {
+    "tagline": "Desenvolupador fullstack amb seu a Barcelona, enfocat en crear interfícies fàcils d'utilitzar i solucions escalables. M'apassiona l'aprenentatge continu i l'ús de noves tecnologies per entregar projectes de gran qualitat.",
+    "cta": "Veure Projectes"
+  },
+  "about": {
+    "title": "Sobre mi",
+    "bio": "Desenvolupador fullstack amb seu a Barcelona, enfocat en crear interfícies fàcils d'utilitzar i solucions escalables. M'apassiona l'aprenentatge continu i l'ús de noves tecnologies per entregar projectes de gran qualitat."
+  },
+  "projects": {
+    "title": "Projectes",
+    "desc_portfolio": "Portfolio complet i modular programat utilitzant React.",
+    "desc_pokedex": "Una pokedex de l'anime de Pokemon, feta amb Django i CSS.",
+    "desc_dice": "Frontend interactiu d'una aplicació o joc basat en daus.",
+    "desc_author": "Aplicació de codi obert allotjada a l'ecosistema de GitHub."
+  },
+  "experience": {
+    "title": "Experiència Professional",
+    "nate_role": "Desenvolupador Fullstack",
+    "nate_desc": "Desenvolupament i manteniment del sistema ERP propi de l'empresa. Treballant tant en el front-end com en el back-end. Implementant millores i resolent problemes per optimitzar els processos interns.",
+    "urbaser_role": "Tècnic de l'Ajuntament",
+    "urbaser_desc": "Desenvolupament i manteniment de CRM utilitzant Javascript i MySql. Manteniment de bases de dades. Virtualització de rutes en programari GIS com Qgis i ArcGis. Resolució de problemes. Implementació i prova de noves tecnologies."
+  },
+  "studies": {
+    "title": "Estudis",
+    "bootcamp": "Bootcamp de desenvolupament Backend",
+    "ibm": "Desenvolupament Fullstack de IBM",
+    "meta": "React Avançat per META"
+  },
+  "contact": {
+    "title": "Contacte"
+  }
+}

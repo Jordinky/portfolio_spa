@@ -7,6 +7,7 @@
   --color-muted:    #888888;
   --color-text:     #FFFFFF;
   --color-accent:   #FF0000;
+  --color-glass:    rgba(0, 0, 0, 0.8);
   --font-mono:      'Doto', sans-serif;
   --font-body:      'Doto', sans-serif;
   --transition:     300ms ease;
@@ -19,6 +20,7 @@
   --color-muted:    #666666;
   --color-text:     #000000;
   --color-accent:   #FF0000;
+  --color-glass:    rgba(255, 255, 255, 0.8);
 }
 
 * {

@@ -2,7 +2,7 @@
   "hero": {
     "name": "Jordi Pelaez Calderini",
     "title": "Fullstack Developer",
-    "tagline": "Based in Barcelona, I have a strong focus on creating user-friendly interfaces and scalable solutions. Passionate about continuous learning and leveraging new technologies to deliver high-quality projects.",
+    "tagline": "Fullstack developer based in Barcelona, I have a strong focus on creating user-friendly interfaces and scalable solutions. Passionate about continuous learning and leveraging new technologies to deliver high-quality projects.",
     "photo": "/hero-photo.jpg",
     "cta": {
       "label": "Ver proyectos",
@@ -10,58 +10,75 @@
     }
   },
   "about": {
-    "bio": "Desarrollador fullstack apasionado por crear experiencias digitales únicas y de alto rendimiento. Con enfoque en arquitectura limpia y diseño minimalista.",
+    "bio": "Fullstack developer based in Barcelona, I have a strong focus on creating user-friendly interfaces and scalable solutions. Passionate about continuous learning and leveraging new technologies to deliver high-quality projects.",
     "skills": [
-      { "name": "Javascript" },
-      { "name": "Python" },
-      { "name": "MySQL" },
       { "name": "React" },
-      { "name": "NodeJs" }
+      { "name": "NodeJS" },
+      { "name": "Javascript" },
+      { "name": "Java" },
+      { "name": "MySql" },
+      { "name": "Git" },
+      { "name": "MongoDB" }
     ]
   },
   "projects": [
     {
+      "id": "portfolio",
       "title": "react_portfolio",
-      "description": "Portfolio completo y modular programado usando React.",
       "stack": ["React", "Javascript", "CSS"],
       "github": "https://github.com/Jordinky/react_portfolio"
     },
     {
+      "id": "pokedex",
       "title": "pokedex",
-      "description": "A pokedex from the Pokemon anime, made with Django and CSS.",
       "stack": ["Python", "Django", "CSS"],
       "github": "https://github.com/Jordinky/pokedex"
     },
     {
+      "id": "dice",
       "title": "dice-front",
-      "description": "Frontend interactivo de una aplicación o juego basado en dados.",
       "stack": ["Javascript", "React"],
       "github": "https://github.com/Jordinky/dice-front"
     },
     {
+      "id": "author",
       "title": "author-spark-unleashed",
-      "description": "Aplicación open-source albergada en el ecosistema de Github.",
       "stack": ["Javascript", "NodeJs"],
       "github": "https://github.com/Jordinky/author-spark-unleashed"
     }
   ],
   "experience": [
     {
-      "company": "Tech Solutions S.L.",
-      "role": "Fullstack Developer",
-      "period": "2022 – Present",
-      "description": "Desarrollo y mantenimiento de aplicaciones web escalables. Liderazgo en la migración a React."
+      "id": "nate",
+      "company": "Nate Gentile, Barcelona",
+      "period": "November 2024 - Present"
     },
     {
-      "company": "Startup Inc.",
-      "role": "Frontend Developer",
-      "period": "2020 – 2022",
-      "description": "Creación de interfaces de usuario interactivas y optimización de rendimiento en el lado del cliente."
+      "id": "urbaser",
+      "company": "Urbaser, Barcelona",
+      "period": "June 2019 - March 2023"
+    }
+  ],
+  "studies": [
+    {
+      "id": "bootcamp",
+      "institution": "ITAcademy (Barcelona)",
+      "year": "2024"
+    },
+    {
+      "id": "ibm",
+      "institution": "Coursera",
+      "year": "2023"
+    },
+    {
+      "id": "meta",
+      "institution": "Coursera",
+      "year": "2023"
     }
   ],
   "contact": {
-    "email": "contacto@jordipelaez.dev",
-    "github": "https://github.com/jordipelaez",
+    "email": "jordipelaez05@gmail.com",
+    "github": "https://github.com/jordinky",
     "linkedin": "https://linkedin.com/in/jordipelaez"
   }
 }
