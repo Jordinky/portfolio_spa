@@ -3,10 +3,15 @@ import { useTranslation } from 'react-i18next';
 
 export default function Nav() {
   const [activeSection, setActiveSection] = useState('');
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   const { t, i18n } = useTranslation();
+
+  const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
+  const closeMenu = () => setIsMenuOpen(false);
 
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
+    closeMenu();
   };
 
   useEffect(() => {
@@ -40,22 +45,32 @@ export default function Nav() {
     <nav className="navbar glass-panel">
       <div className="nav-container">
         <div className="logo">[JP]</div>
-        <ul className="nav-links">
-          {navLinks.map((link) => (
-            <li key={link.id}>
-              <a
-                href={`#${link.id}`}
-                className={activeSection === link.id ? 'active' : ''}
-              >
-                {link.label}
-              </a>
-            </li>
-          ))}
-        </ul>
-        <div className="nav-lang-switcher">
-          <button onClick={() => changeLanguage('ca')} className={i18n.language === 'ca' ? 'active-lang' : ''}>CA</button>
-          <button onClick={() => changeLanguage('es')} className={i18n.language === 'es' ? 'active-lang' : ''}>ES</button>
-          <button onClick={() => changeLanguage('en')} className={i18n.language === 'en' ? 'active-lang' : ''}>EN</button>
+        
+        <button className="burger-menu" onClick={toggleMenu} aria-label="Toggle menu">
+          <span className={`burger-line ${isMenuOpen ? 'open' : ''}`}></span>
+          <span className={`burger-line ${isMenuOpen ? 'open' : ''}`}></span>
+          <span className={`burger-line ${isMenuOpen ? 'open' : ''}`}></span>
+        </button>
+
+        <div className={`nav-menu ${isMenuOpen ? 'open' : ''}`}>
+          <ul className="nav-links">
+            {navLinks.map((link) => (
+              <li key={link.id}>
+                <a
+                  href={`#${link.id}`}
+                  className={activeSection === link.id ? 'active' : ''}
+                  onClick={closeMenu}
+                >
+                  {link.label}
+                </a>
+              </li>
+            ))}
+          </ul>
+          <div className="nav-lang-switcher">
+            <button onClick={() => changeLanguage('ca')} className={i18n.language === 'ca' ? 'active-lang' : ''}>CA</button>
+            <button onClick={() => changeLanguage('es')} className={i18n.language === 'es' ? 'active-lang' : ''}>ES</button>
+            <button onClick={() => changeLanguage('en')} className={i18n.language === 'en' ? 'active-lang' : ''}>EN</button>
+          </div>
         </div>
       </div>
     </nav>
