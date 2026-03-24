@@ -483,7 +483,7 @@ section {
   font-size: 1.1rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .burger-menu {
     display: flex;
   }
